@@ -2,7 +2,7 @@ import random
 
 #Loop to ask user to pick card.
 def pickCard():
-    choice = 'yes';
+    choice = 'yes'
     print('Would you like to pick a card?')
     choice = str.lower(input())
     while choice == 'yes' or choice == 'y':
