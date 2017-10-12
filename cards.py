@@ -16,7 +16,6 @@ def pickCard():
 def shuffleDeck():
     cardNumber = ['Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Jack', 'Queen', 'King', 'Ace']
     cardSuit = ['Spades', 'Clubs', 'Diamonds', 'Hearts']
-    i = 0
     print(random.choice(cardNumber) + ' of ' + random.choice(cardSuit))
     pickCard()
         
